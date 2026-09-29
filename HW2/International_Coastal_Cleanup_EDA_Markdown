@@ -1,0 +1,44 @@
+EDA - International_Coastal_Cleanup.csv
+
+Bullet 1 - What is the Size of your data set? How many variables does it contain? How many samples/data points (e.g. rows of data)?
+
+    Variables - 53 columns or variables
+        These variables contain area of sampling, date sampled, different types of trash collected, # of volunteers, # of hours, # of miles
+    Samples - 77 rows (0 to 76), these indicate values for each different sampled location
+    Total Size - 77 x 53, 4081 total size
+
+Bullet 2 - What are the Data types in your data set? Are all of the variables the same type? Do you have a combination of types?
+
+    Data Types - str, int64, float64
+
+    Mix of 3 different data types; including string (str), 64-bit signed integer (int64), and 64-bit double-precision floating-point number (float64)
+
+Bullet 3 - Do your data columns contain missing data? Do all variables have the same number of missing data points?
+
+    All data columns have 77 data points.
+
+Bullet 4 - Descriptive statistics for your variables of (mean, stdev, median, etc...). Boxplots, bar charts and histograms are great for visualizing the distribution of your data.
+
+    Total count per column, mean, standard deviation (std), minumum (min), 25%, 50%, 75%, and maximum (max) where calculated
+    
+    All items had at least one location where 0 of the item were collected (min)
+    Bottle caps had the highest maximum value collected at a single site, where 780 were collected at one site (max), foam pieces was close to follow at 750
+    These both also had the highest 75% values and means respectively
+    A mean of 98 plastic bottle caps (std 148.8) were found at every site sampled
+    Toys, syringes, and tampons/tampon applicators all were found at a mean >1 per site 
+    Highest median values (50%) were plastic bottle caps (43) and plastic beverage bottles (34)
+    All collected items had standard deviations that were higher than their mean values indicating the high variability of these datasets
+
+    
+    
+    Each location averaged about 19 volunteers and 37 total hours, covering 1.53 miles
+    Median of 11 volunteers, 22 hours and 1 mile
+    Maximum effort included 178 volunteers, 396 hours, and 10 miles covered
+
+
+
+Bullet 5 - Does your data contain outliers?
+
+Bullet 6 - How do your variables relate to each other? You might look at correlations, scatter plots and/or correlation matrices.
+
+Bullet 7 - What initial conclusions can you draw from your exploration of the data?
